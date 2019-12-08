@@ -1,5 +1,5 @@
 #!/bin/sh
 
 ssh pi@192.168.1.137 'cd ~/Documents/raspberry-pi-led-project;\
-  git pull \
-  python ~/Documents/raspberry-pi-led-project/main.py'
+  git pull; \
+  python main.py'
